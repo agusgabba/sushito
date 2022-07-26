@@ -135,3 +135,21 @@ background-color: rgba(0, 0, 0, 0.61);}
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
+
+/*-----recetas especificas----*/
+.main3 {height: 700px;
+    background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;}
+.receticas {border: solid gold;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.61);
+margin: 10px;}
+.letras4 {color: white;
+    font-family: verdana;
+    font-size: 15px;}
