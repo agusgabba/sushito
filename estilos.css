@@ -55,9 +55,6 @@ text-decoration: none;}
     display: flex;
 justify-content: space-around;
 align-items: center;}
-.face{}
-.insta {}
-.youtube {}
 .mapa {height: 220px;
 width: 350px;}
 
@@ -153,3 +150,5 @@ margin: 10px;}
 .letras4 {color: white;
     font-family: verdana;
     font-size: 15px;}
+
+/*------mediaquery-----*/
