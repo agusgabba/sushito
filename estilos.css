@@ -194,6 +194,13 @@ height: 150px;}
 .header {height: 200px;}
 .h1 {font-size: 50px;}
 .p {font-size: 30px;}
+.main2 {flex-direction: column;
+justify-content: center;
+align-items: center;}
+.face {height: 20px;}
+.insta {height: 20px;}
+.youtube {height: 20px;}
+.mapa {height: 5px;}
 }
 @media screen and (max-width:700px){
     .sushirol {display: grid;
@@ -223,7 +230,10 @@ height: 150px;}
         .header {height: 200px;}
     .h1 {font-size: 35px;}
 .p {font-size: 20px;}
-.main3 {height: 900px;}}
+.main3 {height: 900px;}
+.main2 { flex-direction: column;
+justify-content: center;
+align-items: center;}}
 
 /*-----animacion-----*/
 .t:hover {color: gold; text-decoration: underline;}
