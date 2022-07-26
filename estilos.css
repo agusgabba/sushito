@@ -5,13 +5,14 @@
     font-size: 20px; 
     font-family: verdana; 
     font-weight: 400px;
-text-decoration: none;}
+text-decoration: none;
+transition: 0.2s 0.5 ease;}
 .nav {display: flex;
     list-style-type: none;
 justify-content: space-around;
 align-items: center;}
 .main {height: 600px;
-    background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -24,12 +25,21 @@ align-items: center;}
     font-family: verdana; 
     font-weight: 400px;
 background-color: rgba(0, 0, 0, 0.527);
-border: solid gold 2px;}
-.p {color:black; 
+border: solid gold 2px;
+animation-name: p;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease;}
+.p {color:black;
+    background-color: rgba(255, 217, 0, 0.589); 
     text-decoration: underline;
     font-size: 50px; 
     font-family: verdana; 
-    font-weight: 300px;}
+    font-weight: 300px;
+    animation-name: p;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;}
 .h2{color: white; 
     font-size: 20px; 
     font-family: verdana; 
@@ -55,9 +65,6 @@ text-decoration: none;}
     display: flex;
 justify-content: space-around;
 align-items: center;}
-.face{}
-.insta {}
-.youtube {}
 .mapa {height: 220px;
 width: 350px;}
 
@@ -82,7 +89,7 @@ text-align: center;}
 
 /*------recetas-----*/
 .sushirol {height: 700px;
-    background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover; 
@@ -98,40 +105,46 @@ justify-content: space-evenly;
 align-items: center;}
 .atun{ grid-area: atun; padding: 15px;
     margin-top: 10px;
-background-color: rgba(0, 0, 0, 0.61);}
+background-color: rgba(0, 0, 0, 0.61);
+transition: 0.2s 0.5 ease;}
 .california { grid-area: california;padding: 15px;
     margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.61);}
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: 0.2s 0.5 ease;}
 .camaron { grid-area: camaron;padding: 15px;
     margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.61);}
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: 0.2s 0.5 ease;}
 .carne {grid-area: carne;padding: 15px;
-    background-color: rgba(0, 0, 0, 0.61);}
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: 0.2s 0.5 ease;}
 .crujiente {grid-area: crujiente;padding: 15px;
-    background-color: rgba(0, 0, 0, 0.61);}
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: 0.2s 0.5 ease;}
 .tropical { grid-area: tropical;padding: 15px;
-    background-color: rgba(0, 0, 0, 0.61);}
-.h2a {grid-area: h2a;color:black;
+    background-color: rgba(0, 0, 0, 0.61);
+    transition: 0.2s 0.5 ease;}
+.h2a {grid-area: h2a;color: white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
-.h2b{grid-area: h2b;color: black;
+.h2b{grid-area: h2b;color:  white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
-.h2c{grid-area: h2c;color:black;
+.h2c{grid-area: h2c;color: white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
-.h2d{grid-area: h2d;color:black;
+.h2d{grid-area: h2d;color: white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
-.h2e{grid-area: h2e;color:black;
+.h2e{grid-area: h2e;color: white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
-.h2f{grid-area:h2f ;color: black;
+.h2f{grid-area:h2f ;color: white;
     font-family: verdana;
     font-size: 20px;
     font-weight: 200px;}
@@ -153,3 +166,22 @@ margin: 10px;}
 .letras4 {color: white;
     font-family: verdana;
     font-size: 15px;}
+
+/*------mediaquery-----*/
+
+/*-----animacion-----*/
+.t:hover {color: gold; text-decoration: underline;}
+.contacto:hover {color: gold; text-decoration: underline;}
+
+@keyframes p {
+    0% { transform: translateY(200px);
+    opacity: 0;}
+    100% {transform: translateY(0px);
+    opacity: 1;}}
+
+.atun:hover {transform:scale(0.8,0.8) ;}
+.california:hover {transform:scale(0.8,0.8) ;}
+.camaron:hover {transform:scale(0.8,0.8) ;}
+.crujiente:hover {transform:scale(0.8,0.8) ;}
+.carne:hover {transform:scale(0.8,0.8) ;}
+.tropical:hover {transform:scale(0.8,0.8) ;}
