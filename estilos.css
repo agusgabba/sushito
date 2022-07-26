@@ -1,0 +1,81 @@
+.body { height: 100; background-color: rgb(0, 0, 0);}
+.header {height: 70px; 
+    background-image: linear-gradient(to bottom,red,black);}
+.t { color: white; 
+    font-size: 20px; 
+    font-family: verdana; 
+    font-weight: 400px;
+text-decoration: none;}
+.nav {display: flex;
+    list-style-type: none;
+justify-content: space-around;
+align-items: center;}
+.main {height: 600px;
+    background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.h1 {color: gold; 
+    font-size: 70px; 
+    font-family: verdana; 
+    font-weight: 400px;
+background-color: rgba(0, 0, 0, 0.527);
+border: solid gold 2px;}
+.p {color:black; 
+    text-decoration: underline;
+    font-size: 50px; 
+    font-family: verdana; 
+    font-weight: 300px;}
+.h2{color: white; 
+    font-size: 20px; 
+    font-family: verdana; 
+    font-weight: 400px;}
+.footer {height: 70px; 
+    display: flex;
+    list-style-type: none;
+justify-content: space-around;
+align-items: center;
+    background-image: linear-gradient(to top,red,rgba(0, 0, 0, 0.89));}
+.derechos {color: white; 
+    font-size: 20px; 
+    font-family: verdana; 
+    font-weight: 400px;}
+.contacto {color: white; 
+    font-size: 20px; 
+    font-family: verdana; 
+    font-weight: 400px;
+text-decoration: none;}
+
+/*-------contacto------*/
+.main2{height: 400px;
+    display: flex;
+justify-content: space-around;
+align-items: center;}
+.face{}
+.insta {}
+.youtube {}
+.mapa {height: 220px;
+width: 350px;}
+
+/*------resgistro-----*/
+.letras {color: white;
+font-family: verdana;
+font-size: 20px;
+font-weight: 200px;}
+.letras1 {font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.divform {border: solid gold;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.61);}
+.h1r {color: gold; 
+    font-size: 30px; 
+    font-family: verdana; 
+    font-weight: 300px;
+border: solid gold 2px;
+padding: 5px;
+text-align: center;}
