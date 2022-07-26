@@ -8,7 +8,7 @@
 text-decoration: none;
 transition: 0.2s 0.5 ease;}
 .nav {display: flex;
-    list-style-type: none;
+list-style-type: none;
 justify-content: space-around;
 align-items: center;}
 .main {height: 600px;
@@ -172,6 +172,58 @@ margin: 10px;}
     font-size: 15px;}
 
 /*------mediaquery-----*/
+@media screen and (max-width:1100px) and (min-width:700px){
+    .sushirol {display: grid;
+        height: auto;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        grid-template-areas: 
+        "atun california" 
+        "h2a h2b" 
+        "camaron carne"
+        "h2c h2d"
+        "crujiente tropical" 
+        "h2e h2f"}
+.footer {height: 200px; 
+    display: flex;
+    flex-direction: column;}
+.nav {display: flex;
+flex-direction: column;
+height: 150px;}
+.header {height: 200px;}
+.h1 {font-size: 50px;}
+.p {font-size: 30px;}
+}
+@media screen and (max-width:700px){
+    .sushirol {display: grid;
+        height: auto;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px;
+        justify-content: center;
+        grid-template-areas: 
+        "atun" 
+        "h2a"
+        "california" 
+        "h2b" 
+        "camaron"
+        "h2c" 
+        "carne"
+        "h2d"
+        "crujiente" 
+        "h2e"
+        "tropical" 
+        "h2f"}
+        .footer {height: 200px; 
+            display: flex;
+            flex-direction: column;}
+        .nav {display: flex;
+        flex-direction: column;
+        height: 150px;}
+        .header {height: 200px;}
+    .h1 {font-size: 35px;}
+.p {font-size: 20px;}
+.main3 {height: 900px;}}
 
 /*-----animacion-----*/
 .t:hover {color: gold; text-decoration: underline;}
