@@ -79,3 +79,59 @@ background-color: rgba(0, 0, 0, 0.61);}
 border: solid gold 2px;
 padding: 5px;
 text-align: center;}
+
+/*------recetas-----*/
+.sushirol {height: 700px;
+    background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover; 
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 50px 300px 50px;
+    grid-template-areas: 
+    "atun california camaron"
+    "h2a h2b h2c"
+    "carne crujiente tropical"
+    "h2d h2e h2f";
+justify-content: space-evenly;
+align-items: center;}
+.atun{ grid-area: atun; padding: 15px;
+    margin-top: 10px;
+background-color: rgba(0, 0, 0, 0.61);}
+.california { grid-area: california;padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.61);}
+.camaron { grid-area: camaron;padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.61);}
+.carne {grid-area: carne;padding: 15px;
+    background-color: rgba(0, 0, 0, 0.61);}
+.crujiente {grid-area: crujiente;padding: 15px;
+    background-color: rgba(0, 0, 0, 0.61);}
+.tropical { grid-area: tropical;padding: 15px;
+    background-color: rgba(0, 0, 0, 0.61);}
+.h2a {grid-area: h2a;color:black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.h2b{grid-area: h2b;color: black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.h2c{grid-area: h2c;color:black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.h2d{grid-area: h2d;color:black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.h2e{grid-area: h2e;color:black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
+.h2f{grid-area:h2f ;color: black;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200px;}
