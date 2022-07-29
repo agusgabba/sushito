@@ -163,10 +163,8 @@ transition: 0.2s 0.5 ease;}
     flex-direction: column;
 justify-content: center;
 align-items: center;}
-.receticas {border: solid gold;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.61);
-margin: 10px;}
+.container {border: solid gold;
+    background-color: rgba(0, 0, 0, 0.61);}
 .letras4 {color: white;
     font-family: verdana;
     font-size: 15px;}
@@ -197,10 +195,6 @@ height: 150px;}
 .main2 {flex-direction: column;
 justify-content: center;
 align-items: center;}
-.face {height: 20px;}
-.insta {height: 20px;}
-.youtube {height: 20px;}
-.mapa {height: 5px;}
 }
 @media screen and (max-width:700px){
     .sushirol {display: grid;
