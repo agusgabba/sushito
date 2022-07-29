@@ -1,7 +1,8 @@
-.body { height: 100; background-color: rgb(0, 0, 0);}
+.body { height: 100; 
+    background-color: rgb(0, 0, 0);}
 .header {height: 70px; 
     background-image: linear-gradient(to bottom,red,black);}
-.t { color: white; 
+.nav-link { color: white; 
     font-size: 20px; 
     font-family: verdana; 
     font-weight: 400px;
@@ -92,7 +93,15 @@ padding: 5px;
 text-align: center;}
 
 /*------recetas-----*/
-.sushirol {height: 700px;
+.carousel {height: 40% !important;
+width: 40% !important;}
+.sushirol {background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+display: flex;
+justify-content: center;}
+/*.sushirol {height: 700px;
     background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
     background-position: center;
     background-repeat: none;
@@ -151,10 +160,10 @@ transition: 0.2s 0.5 ease;}
 .h2f{grid-area:h2f ;color: white;
     font-family: verdana;
     font-size: 20px;
-    font-weight: 200px;}
+    font-weight: 200px;}*/
 
 /*-----recetas especificas----*/
-.main3 {height: 700px;
+.main3 {height: 800px;
     background-image:  url(https://babycocina.com/wp-content/uploads/2020/09/sushi-casero.jpg);
     background-position: center;
     background-repeat: none;
@@ -171,7 +180,7 @@ align-items: center;}
 
 /*------mediaquery-----*/
 @media screen and (max-width:1100px) and (min-width:700px){
-    .sushirol {display: grid;
+    /*.sushirol {display: grid;
         height: auto;
         grid-template-columns: 400px 400px;
         grid-template-rows: 400px;
@@ -182,13 +191,13 @@ align-items: center;}
         "camaron carne"
         "h2c h2d"
         "crujiente tropical" 
-        "h2e h2f"}
+        "h2e h2f"}*/
 .footer {height: 200px; 
     display: flex;
     flex-direction: column;}
-.nav {display: flex;
+/*.nav {display: flex;
 flex-direction: column;
-height: 150px;}
+height: 150px;}*/
 .header {height: 200px;}
 .h1 {font-size: 50px;}
 .p {font-size: 30px;}
@@ -197,7 +206,7 @@ justify-content: center;
 align-items: center;}
 }
 @media screen and (max-width:700px){
-    .sushirol {display: grid;
+    /*.sushirol {display: grid;
         height: auto;
         grid-template-columns: 400px;
         grid-template-rows: 300px;
@@ -214,13 +223,13 @@ align-items: center;}
         "crujiente" 
         "h2e"
         "tropical" 
-        "h2f"}
+        "h2f"}*/
         .footer {height: 200px; 
             display: flex;
             flex-direction: column;}
-        .nav {display: flex;
+        /*.nav {display: flex;
         flex-direction: column;
-        height: 150px;}
+        height: 150px;}*/
         .header {height: 200px;}
     .h1 {font-size: 35px;}
 .p {font-size: 20px;}
