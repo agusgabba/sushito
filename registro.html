@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--link css-->
+    <link rel="stylesheet" href="estilos.css">
+    <title>contacto</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page"a href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" a href="recetas.html">RECETAS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" a href="sobreelchef.html">SOBRE EL CHEF</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" a href="registro.html">REGISTRO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="h1r">Registro</h1>
+    <main class="main">
+        <div class="divform">
+        <form>
+            <label for="nombre" class="letras">Nombre:</label>	
+            <input type="text" name="nombre" />
+        </form>
+        <form>
+            <label for="Apellido"class="letras">Apellido:</label>	
+            <input type="text" name="Apellido" />
+        </form>
+        <form>    
+            <label for="Dni"class="letras">Dni:</label>	
+            <input type="text" name="Dni" />
+        </form>
+        <form>
+            <label for="telefono"class="letras">Telefono:</label>	
+            <input type="text" name="telefono" />
+        </form>
+        <form>
+            <label for="mail"class="letras">Mail:</label>	
+            <input type="text" name="Mail" />
+            <select name="Pais">
+                <option value="arg"class="letras1">Argentina</option>
+                <option value="otro"class="letras1">Otro</option>
+            </select>
+            <div class="letras">hombre</div>
+            <input type="radio" name="sexo" value="hombre" />
+            <div class="letras">mujer</div>
+            <input type="radio" name="sexo" value="mujer" />
+            <div class="letras">otro</div>
+            <input type="radio" name="sexo" value="otro" />
+            <div class="letras">Acepta términos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1" />        
+            <input type="submit" value="Enviar formulario"class="letras1"/>
+            <input type="reset" value="Limpiar formulario"class="letras1"/>
+        </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2 class="h2">Agustina Gabba</h2>
+        <p class="derechos">Todos los derechos reservados</p>
+        <li><a href="contacto.html" class="contacto">Contacto</a></li>
+    </footer>
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
